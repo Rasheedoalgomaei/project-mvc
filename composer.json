@@ -1,0 +1,22 @@
+{
+    "name": "sectheater/php-mvc",
+    "authors": [
+        {
+            "name": "Rasheedo"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "symfony/var-dumper": "^6.4"
+    },
+    "autoload": {
+
+
+        "psr-4": {
+
+            "App\\": "App",
+            "SallaProducts\\": "src"
+        }
+       
+    }
+}
